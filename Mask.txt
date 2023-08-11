@@ -1,0 +1,4 @@
+Mask is a value that is used to subtract permissions from the default permissions. 
+For example, if the mask is 022, then the default permissions of 666 for a 
+file will be reduced to 644. This means that the file will only have read 
+and write permissions for the owner and read permissions for the group and others.
